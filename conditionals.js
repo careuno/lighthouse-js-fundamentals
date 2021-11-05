@@ -92,3 +92,18 @@ commit code from inside repo folder
 
 git add conditionals.js
 git commit -m "Add more conditional examples" */
+
+let school = " ";
+let age = " ";
+
+const whichSchool = function (age) {
+  if (age < 13) {
+    return "Elementary School";
+  } else if (age >= 13 && age <= 18) {
+    return "Secondary School";
+  } else {
+    return "Lighthouse Labs";
+  }
+}
+
+whichSchool(17);
