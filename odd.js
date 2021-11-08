@@ -8,3 +8,4 @@ console.log("3 is odd: " + isOdd(0));
 console.log("8 is odd: " + isOdd(1));
 
 // input edge cases when testing, 0, 1 etc. 
+
